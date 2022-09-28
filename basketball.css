@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.container {
+   width: 575px;
+height: 385px;
+    padding-top: 68px;
+    padding-bottom: 69px;
+    padding-left: 82px;
+    padding-right: 83px;
+background: #1B244A;
+border: 3px solid #EEEEEE;
+border-radius: 10px 10px 10px 10px;
+}
+.container .fakebody{margin-left: 82px;
+                       
+                            }
+.container .row1 {display: flex
+}
+.container .row2 {display: flex}
+.container h3{width: 149px;
+height: 36px;
+top: 68px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+
+color: #EEEEEE;
+}
+.home h3{left:85px;
+margin-right: 106px }
+.guest h3{left:340px;}
+.container .scorebrd1{
+    width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background: black;
+}
+#scorebrd1{margin-right:100px }
+.container .row2 .scorebrd1 h4{
+ position: absolute;
+width: 117px;
+height: 120px;
+left: 100px;
+top: 70px;
+margin-left: 80px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+  
+}
+.container .scorebrd2{
+    width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background: black;
+}
+.container .row2 .scorebrd2 h4{
+ position: absolute;
+width: 117px;
+height: 120px;
+left: 360px;
+top: 70px;
+margin-left: 80px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+  
+}
+.container .row31{display: flex;
+margin-top: 30px;
+}
+.container .row31 button{margin-right: 25px;
+}
+.container .row32{
+margin-left: 250px;
+}
+.container .row32 button{margin-right: 25px;
+}
