@@ -1,40 +1,34 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="fakebody">
-                      <div class="row1">
-                            <div class="home">
-                                <h3>HOME</h3>
-                            </div>
-                            <div class="guest">
-                                <h3>AWAY</h3>
-                            </div>
-                      </div>
-            
-                      <div class="row2">
-                            <div class="scorebrd1" id="scorebrd1">
-                                <h4 id="homeScore">0</h4>
-                            </div>
-                            <div class="scorebrd2">
-                                <h4 id="guestScore">0</h4>
-                            </div>
-                      </div>
-                      <div class="row31">
-                        <button onclick="homeplus1()">+1</button>
-                        <button onclick="homeplus2()">+2</button>
-                        <button onclick="homeplus3()">+3</button>
-                      </div>  
-                    
-                       <div class="row32">
-                        <button onclick="guestplus1()">+1</button>
-                        <button onclick="guestplus2()">+2</button>
-                        <button onclick="guestplus3()">+3</button>
-                      </div>     
-            </div>  
+  <head>
+    <link rel="stylesheet" href="basketball.css" />
+  </head>
+  <body>
+    <div class="outerBorder">
+      <div class="titles">
+        <h1 id="home">HOME</h1>
+        <h1 id="away">AWAY</h1>
+      </div>
+      <div class="displayBoard">
+        <div class="displayOne" id="homeDisplay">
+          <h5 id="homeScore"></h5>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="displayTwo" id="awayDisplay">
+          <h5 id="awayScore"></h5>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="set1">
+            <button onclick="plusOneH()">+1</button>
+            <button onclick="plusTwoH()">+2</button>
+            <button onclick="plusThreeH()">+3</button>
+        </div>
+        <div class="set2">
+            <button onclick="plusOneA()">+1</button>
+            <button onclick="plusTwoA()">+2</button>
+            <button onclick="plusThreeA()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="basketball.js"></script>
+  </body>
 </html>
